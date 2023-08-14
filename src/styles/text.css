@@ -1,0 +1,24 @@
+:root{
+    --Title1__Weight: 700;
+    --Title1__Size: 1.75rem;
+    --Title1__Line: 2.5rem;
+
+    --Title2__Weight: 600;
+    --Title2__Size: 1.25rem;
+    --Title2__Line: 1.5rem;
+
+    --Text1__Weight: 400;
+    --Text1__Size: 1rem;
+    --Text1__Line: 1.75rem;
+
+    --Text2__Weight: 400;
+    --Text2__Bold: 600;
+    --Text2__Size: 0.875rem;
+    --Text2__Line: 1rem;
+
+    --Text3__Weight: 400;
+    --Text3__Size: 0.75rem;
+    --Text3__Line: 1rem;
+    
+}
+

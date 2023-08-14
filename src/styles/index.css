@@ -1,0 +1,258 @@
+@import url("text.css");
+
+@media (max-width: 1025px) {
+
+    .main_contenido{
+        padding: 100px 25px;
+        width: 100%;
+    }
+
+    .main_section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .post__new {
+        width: 95%;
+    }
+
+    .postList__item {
+        width: 100%;
+    }
+
+    .sugestoes {
+        width: 100%;
+        align-items: center;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin-top: 20px;
+    }
+
+    .sugestoes__li {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+
+}
+
+
+
+
+header {
+    display: flex;
+    width: 100vw;
+    background-color: var(--grey1);
+    justify-content: space-between;
+}
+
+.img__usario {
+    height: 3.125rem;
+}
+
+main {
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+#exit {
+    color: var(--grey4);
+    padding: 20px;
+    margin-right: 5vw;
+}
+
+
+
+.main_section {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.user__name {
+    margin-bottom: 0.2rem;
+    font-weight: var(--Title2__Weight);
+    font-size: var(--Title2__Size);
+    line-height: var(--Title2__Line);
+}
+
+.user__profession {
+    color: var(--grey2);
+    font-weight: var(--Text2__Weight);
+    font-size: var(--Text2__Size);
+    line-height: var(--Text2__Line);
+}
+
+
+input,
+textarea {
+    color: var(--grey2);
+    font-size: var(--Texto1__size);
+    font-weight: var(--Text1__Weight);
+    line-height: var(--Text1__Line);
+    border: 1px solid var(--grey4);
+    width: 30rem;
+    margin-top: 0.5rem;
+    margin-right: 5%;
+}
+
+input:focus,
+textarea:focus {
+
+    border: 1px solid var(--brand2);
+}
+
+.crear__post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button {
+    font-weight: var(--Text2__Weight);
+
+}
+
+.btn__postar {
+    background-color: var(--brand1);
+    color: var(--whiteFixed);
+    height: 2rem;
+    width: 4rem;
+    margin-right: 0%;
+    margin-right: 0%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.sugestoes {
+    max-width: 30%;
+}
+
+.sugestoes__seguir {
+    font-weight: var(--Title2__Weight);
+    font-size: var(--Title2__Size);
+    line-height: var(--Title2__Line);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+}
+
+.sugestoes__li {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.seccion_post {
+    margin-top: 1.5rem;
+    font-weight: var(--Title1__Weight);
+    font-size: var(--Title1__Size);
+    line-height: var(--Title1__Line);
+}
+
+.main__post {
+    font-weight: var(--Title1__Weight);
+    font-size: var(--Title1__Size);
+    line-height: var(--Title1__Line);
+}
+
+.follow_btn {
+    background-color: var(--whiteFixed);
+    color: var(--grey1);
+    border: 0.063rem solid var(--grey1);
+    height: 2rem;
+    width: 5rem;
+
+}
+
+
+.follow_btn:hover {
+    border-color: var(--brand2);
+    background-color: var(--whiteFixed);
+    color: var(--brand1);
+}
+
+.follow_btn:focus {
+    background-color: var(--brand2);
+    color: var(--whiteFixed);
+}
+
+
+.open__post {
+    height: 1.6rem;
+    width: 5.3rem;
+    margin-right: 1rem;
+    background-color: var(--grey1);
+    color: var(--whiteFixed);
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+
+.open__post:hover {
+    background-color: var(--grey0);
+    color: var(--whiteFixed);
+}
+
+
+
+.like__dive {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.info__div {
+    margin-left: 1rem;
+}
+
+
+.div__post {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+
+
+.btnFollow,
+.follow__modal {
+    background-color: var(--whiteFixed);
+    color: var(--grey1);
+    border: 0.063rem solid var(--grey1);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 0.188rem;
+    cursor: pointer;
+    max-height: 1.9rem;
+    font-weight: var(--Text2__Bold);
+    font-size: var(--Text2__Size);
+}
+
+
+.parrafo1 {
+    width: 45rem;
+
+    font-weight: var(--Text1__Weight);
+    font-size: var(--Text1__Size);
+    line-height: var(--Text1__Line);
+    color: var(--grey2);
+}
